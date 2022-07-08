@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DiegoCantarell/api-express-db#readme",
   "devDependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "prisma": "^4.0.0"
   }
 }
