@@ -1,0 +1,19 @@
+{
+  "name": "api-express-db",
+  "version": "1.0.0",
+  "description": "API using express, postgresql, prisma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoCantarell/api-express-db.git"
+  },
+  "author": "diegocantarell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoCantarell/api-express-db/issues"
+  },
+  "homepage": "https://github.com/DiegoCantarell/api-express-db#readme"
+}
