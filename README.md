@@ -7,4 +7,5 @@ This project is to create a Web API using JavaScript, DB (Postgresql), Express J
 	npm install express --save-dev
 	npm install prisma --save-dev 
   	``` 
+3. Initializing Prisma using ``` npx prisma init ``` 
 ## 'Readme' development documentation in progress
