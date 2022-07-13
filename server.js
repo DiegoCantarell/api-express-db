@@ -10,6 +10,9 @@ const prisma = new PrismaClient();
 app.get('/', (req, res) => {
   res.json({message: 'alive'});
 });
+
+//EXPLORERS SECTION
+
 app.get('/explorers', async (req, res) => {
   const allExplorers =  await prisma.explorer.findMany({});
   res.json(allExplorers);
@@ -48,6 +51,16 @@ app.delete('/explorers/:id', async (req, res) => {
 	await prisma.explorer.delete({where: {id: id}});
 	return res.json({message: "Eliminado correctamente"});
 });
+
+//COMMANDER SECTION
+
+app.get('/commanders', async (req, res) => {
+  const allExplorers =  await prisma.commander.findMany({});
+  res.json(allExplorers);
+});
+
+//PORT
+
 app.listen(port, () => {
   console.log(`Listening to requests on port ${port}`);
 });
