@@ -68,7 +68,7 @@ app.post('/commanders', async (req, res) => {
   const commander = {
     name: req.body.name,
     lang: req.body.lang,
-    missionCommander: req.body.missionCommander
+    missionCommander: req.body.missionCommander,
     enrollments: req.body.enrollments
    };
   const message = 'Commander creado.';
