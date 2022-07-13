@@ -61,7 +61,7 @@ app.get('/commanders', async (req, res) => {
 
 app.get('/commanders/:id', async (req, res) => {
   const id = req.params.id;
-  const explorer = await prisma.explorer.findUnique({where: {id: parseInt(id)}});
+  const explorer = await prisma.commander.findUnique({where: {id: parseInt(id)}});
   res.json(explorer);
 });
 //PORT
