@@ -89,6 +89,13 @@ app.put('/commanders/:id', async (req, res) => {
 
 	return res.json({message: "Actualizado correctamente"});
 });
+app.delete('/commanders/:id', async (req, res) => {
+	const id = parseInt(req.params.id);
+	await prisma.commanders.delete({where: {id: id}});
+	return res.json({message: "Eliminado correctamente"});
+});
+
+//COMMANDER SECTION
 //PORT
 
 app.listen(port, () => {
