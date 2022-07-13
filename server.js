@@ -64,6 +64,17 @@ app.get('/commanders/:id', async (req, res) => {
   const explorer = await prisma.commander.findUnique({where: {id: parseInt(id)}});
   res.json(explorer);
 });
+app.post('/commanders', async (req, res) => {
+  const commander = {
+    name: req.body.name,
+    lang: req.body.lang,
+    missionCommander: req.body.missionCommander
+    enrollments: req.body.enrollments
+   };
+  const message = 'Commander creado.';
+  await prisma.commander.create({data: commander});
+  return res.json({message});
+});
 //PORT
 
 app.listen(port, () => {
