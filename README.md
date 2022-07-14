@@ -37,7 +37,7 @@ With this command the tables will be created.
 
 
 
-# Step #4 -> Models to create tables into the db using  Prisma. 
+# Step #4 -> Insert data into the tables. 
 Use the files ```prisma/seed.js```  and ```prisma/commanderSeed.js```  to insert data into the db in an automated way.
 To apply these changes into the db use:
 
