@@ -44,4 +44,25 @@ To apply these changes into the db use:
 ``` node prisma/seed.js``` 
 ``` node prisma/commanderSeed.js``` 
 
+# Step #5 -> CRUD.
+In the file ``` server.js```  is all the code to run the server  and use  the **endpoints ** using  **Express**.
+
+Run the server using  ``` node server.js``` 
+
+The request to the server are following ones:
+
+## GET
+To return all the records
+- ``` localhost:3000/explorers```  -> return all the explorers.
+- ``` localhost:3000/explorers/:id```  -> return the explorer by id using query params.
+
+Example
+**localhost:3000/explorers/1**
+
+- ``` localhost:3000/commanders```  -> return all the commanders
+- ``` localhost:3000/commanders/:id```  -> return the commanders by id using query params.
+
+Example
+**localhost:3000/commanders/1**
+
 ## 'Readme' development documentation in progress ...
