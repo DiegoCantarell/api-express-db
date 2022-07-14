@@ -45,6 +45,10 @@ To apply these changes into the db use:
 ``` node prisma/seed.js``` 
 ``` node prisma/commanderSeed.js``` 
 
+![img4](https://user-images.githubusercontent.com/92350521/179087754-88a31361-f711-4ddb-b61c-1ec67f46b14a.png)
+
+![img5](https://user-images.githubusercontent.com/92350521/179087781-1c7d6c7f-1c68-4e8f-9f09-15cda7710844.png)
+
 # Step #5 -> CRUD.
 In the file ``` server.js```  is all the code to run the server  and use  the **endpoints ** using  **Express**.
 
