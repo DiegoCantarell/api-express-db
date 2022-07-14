@@ -54,10 +54,13 @@ In the file ``` server.js```  is all the code to run the server  and use  the **
 
 Run the server using  ``` node server.js``` 
 
+
+![img0](https://user-images.githubusercontent.com/92350521/179089105-216bf213-ed19-4127-ac46-805cbaf1dc0f.png)
+
 The request to the server are following ones:
 
 ## GET
-To return all the records
+
 - ``` localhost:3000/explorers```  -> return all the explorers.
 - ``` localhost:3000/explorers/:id```  -> return the explorer by id using query params.
 
@@ -69,5 +72,23 @@ Example
 
 Example
 **localhost:3000/commanders/1**
+
+The following endpoints can be proved using a tool like **Postman**.
+
+## POST
+
+- ``` localhost:3000/explorers```   -> To create an explorer.
+- ``` localhost:3000/commanders```   -> To create a commander
+
+Example -> Creating an explorer using **Postman** to prove the endpoint.
+
+![img4](https://user-images.githubusercontent.com/92350521/179089316-a10609c4-1a26-4f5d-86de-2446866d5727.png) 
+
+![Screenshot from 2022-07-14 16-25-59](https://user-images.githubusercontent.com/92350521/179089344-180f7e75-6312-4554-9088-f1ee6c5c9135.png)
+
+![img6](https://user-images.githubusercontent.com/92350521/179089493-c368eb17-6d74-4213-bf30-957649d2658c.png)
+
+![img7](https://user-images.githubusercontent.com/92350521/179089716-b3479f61-594a-4052-a533-57fd0a8b6606.png)
+
 
 ## 'Readme' development documentation in progress ...
