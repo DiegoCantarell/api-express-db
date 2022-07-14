@@ -121,6 +121,13 @@ Example using **Postman**
 
 ![img13](https://user-images.githubusercontent.com/92350521/179091881-987db426-ece9-4735-a322-5d6760bf038b.png)
 
+# Step #5 -> Client - Server
 
+### Installing Cors dependencie
+
+Install  ``` npm install cors --save ``` , this is not necessary if you executed ``` npm install```.
+
+- Fork the following repo: https://github.com/DiegoCantarell/client-launchxPractice
+- Execute ``` npm run serve```,  the app must be on ``` http://localhost:8081/``` 
 
 ## 'Readme' development documentation in progress ...
