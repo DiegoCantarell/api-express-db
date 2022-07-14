@@ -65,15 +65,22 @@ The request to the server are following ones:
 - ``` localhost:3000/explorers/:id```  -> return the explorer by id using query params.
 
 Example
+
 **localhost:3000/explorers/1**
+
+![img8](https://user-images.githubusercontent.com/92350521/179090452-7621cfb9-c011-419e-ad47-c86b23c5e236.png)
+
 
 - ``` localhost:3000/commanders```  -> return all the commanders
 - ``` localhost:3000/commanders/:id```  -> return the commanders by id using query params.
 
 Example
+
 **localhost:3000/commanders/1**
 
-The following endpoints can be proved using a tool like **Postman**.
+![img9](https://user-images.githubusercontent.com/92350521/179090564-f844abd2-662c-4875-865c-91b1d6e94a2c.png)
+
+### The following endpoints can be proved using a tool like **Postman**.
 
 ## POST
 
@@ -89,6 +96,31 @@ Example -> Creating an explorer using **Postman** to prove the endpoint.
 ![img6](https://user-images.githubusercontent.com/92350521/179089493-c368eb17-6d74-4213-bf30-957649d2658c.png)
 
 ![img7](https://user-images.githubusercontent.com/92350521/179089716-b3479f61-594a-4052-a533-57fd0a8b6606.png)
+
+## PUT
+``` localhost:3000/explorers/:id``` -> Update an explorer by id   
+``` localhost:3000/commanders/:id``` -> Update a commander by id   
+
+Example using **Postman**
+
+![img4](https://user-images.githubusercontent.com/92350521/179091050-e34cafc7-1969-4459-830d-8f721d9fee57.png)
+
+![img10](https://user-images.githubusercontent.com/92350521/179091187-f4f65ec7-6a94-48c6-a275-d8403418f939.png)
+
+![img11](https://user-images.githubusercontent.com/92350521/179091301-0773994b-908c-4f5c-8b2e-749f0df5038c.png)
+
+## DELETE
+``` localhost:3000/explorers/:id``` -> Delete an explorer by id.  
+``` localhost:3000/commanders/:id``` -> Delete a commander by id.
+
+Example using **Postman**
+
+![img11](https://user-images.githubusercontent.com/92350521/179091646-da30bd15-ccde-46e3-9972-25b1920ac05e.png)
+
+![img12](https://user-images.githubusercontent.com/92350521/179091781-642afaa5-7e56-495f-b264-fbaa28a6fcf2.png)
+
+![img13](https://user-images.githubusercontent.com/92350521/179091881-987db426-ece9-4735-a322-5d6760bf038b.png)
+
 
 
 ## 'Readme' development documentation in progress ...
