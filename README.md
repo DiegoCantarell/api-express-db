@@ -8,6 +8,9 @@ The project uses the following dependencies :
 
 1. Create a db in postgresql with the name **explorers_api**
 
+![img1](https://user-images.githubusercontent.com/92350521/179082565-732ba9fb-2e9c-4c3b-ba54-539772f41c2a.png)
+
+
 # Step #2 -> Postgresql Database Connection.
 1.  In the project, add the Express and Prisma dependencies with:
 ```  npm install ``` , this command downloads dependencies defined in the **package.json**, or manually using:
@@ -28,8 +31,14 @@ To apply these changes, it's necessary to do a migration using prisma with the f
 ``` npx prisma migrate dev --name init ``` 
 With this command the tables will be created.
 
+
+![img2](https://user-images.githubusercontent.com/92350521/179084922-7881c180-73e0-4f43-aed7-4c83724da8d3.png)
+![img3](https://user-images.githubusercontent.com/92350521/179084931-8149f3eb-25e0-433b-bf0e-f1d2e2fbd137.png)
+
+
+
 # Step #4 -> Models to create tables into the db using  Prisma. 
-Using the files ```prisma/seed.js```  and ```prisma/commanderSeed.js```  to insert data into the db in an automated way.
+Use the files ```prisma/seed.js```  and ```prisma/commanderSeed.js```  to insert data into the db in an automated way.
 To apply these changes into the db use:
 
 ``` node prisma/seed.js``` 
