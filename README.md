@@ -127,7 +127,9 @@ Example using **Postman**
 
 Install  ``` npm install cors --save ``` , this is not necessary if you executed ``` npm install```.
 
-- Fork the following repo: https://github.com/DiegoCantarell/client-launchxPractice
-- Execute ``` npm run serve```,  the app must be on ``` http://localhost:8081/``` 
+
+- Run the actual server with ``` node server.js```
+- - Fork the following repo: https://github.com/DiegoCantarell/client-launchxPractice
+- Execute ``` npm run serve``` on the repo that has been forked,  the app must be on ``` http://localhost:8081/``` 
 
 ## 'Readme' development documentation in progress ...
