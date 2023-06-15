@@ -132,4 +132,4 @@ Install  ``` npm install cors --save ``` , this is not necessary if you executed
 - Fork the following repo: https://github.com/DiegoCantarell/client-launchxPractice
 - Execute ``` npm run serve``` on the repo that has been forked,  the app must be on ``` http://localhost:8081/``` 
 
-## 'Readme' development documentation in progress ...
+
